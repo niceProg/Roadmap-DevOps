@@ -3,20 +3,24 @@ name: Deploy to GitHub Pages
 on:
   push:
     paths:
-      - 'gh-deployment-workflow/index.html'  # Only run when index.html is changed
+      - '/workspaces/Roadmap-DevOps/gh-deployment-workflow/index.html'  # Only run when index.html is changed
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Determine the runner to be used
+    runs-on: ubuntu-latest
+
+    env:  # Defining environment variables
+      BASE_URL: https://niceprog.github.io/Roadmap-DevOps/gh-deployment-workflow
 
     steps:
-      # Steps to checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Steps to deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3  # Using GitHub Pages custom actions
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatic authorization token
-          publish_dir: ./gh-deployment-workflow  # The directory where the index.html file is located
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ../workflows/.github/gh-deployment-workflow  # Points to the folder containing index.html
+
+      - name: Output deployment URL
+        run: echo "The website is deployed at ${{ env.BASE_URL }}"  # Using environment variables
