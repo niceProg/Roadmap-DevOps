@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     paths:
-      - '/workspaces/Roadmap-DevOps/gh-deployment-workflow/index.html'  # Only run when index.html is changed
+      - './gh-deployment-workflow/index.html'  # Only run when index.html is changed
 
 jobs:
   deploy:
@@ -20,7 +20,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ../workflows/.github/gh-deployment-workflow  # Points to the folder containing index.html
+          publish_dir: './'  # Points to the folder containing index.html
 
       - name: Output deployment URL
         run: echo "The website is deployed at ${{ env.BASE_URL }}"  # Using environment variables
