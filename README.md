@@ -12,15 +12,15 @@ This project is the result of learning at
 9. Dummy Systemd Service ❎ Level Beginner
 10. Basic Dockerfile ❎ Level Beginner
 11. EC2 Instance ❎ Level Beginner
-12. Configuration Management ❎ Intermediate
-13. IaC on DigitalOcean ❎ Intermediate
-14. Node.js Service Deployment ❎ Intermediate
-15. Dockerized Service ❎ Intermediate
-16. Multi-Container Application ❎ Intermediate
-17. Automated DB Backups ❎ Intermediate
-18. Blue-Green Deployment ❎ Advanced
-19. Prometheus and Grafana ❎ Advanced
-20. Multi-Service Application ❎ Advanced
-21. Service Discovery ❎ Advanced
+12. Configuration Management ❎ Level Intermediate
+13. IaC on DigitalOcean ❎ Level Intermediate
+14. Node.js Service Deployment ❎ Level Intermediate
+15. Dockerized Service ❎ Level Intermediate
+16. Multi-Container Application ❎ Level Intermediate
+17. Automated DB Backups ❎ Level Intermediate
+18. Blue-Green Deployment ❎ Level Advanced
+19. Prometheus and Grafana ❎ Level Advanced
+20. Multi-Service Application ❎ Level Advanced
+21. Service Discovery ❎ Level Advanced
 
 All projects can be found on [roadmap.sh](https://roadmap.sh/devops/projects)
