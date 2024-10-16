@@ -10,4 +10,4 @@ The website will be accessible at: https://niceProg.github.io/Roadmap-DevOps/gh-
 - Ensure GitHub Pages is enabled for the `gh-pages` branch in the repository settings.
 
 ## Screenshot
-![Screenshot of Successful Deployment](Roadmap-DevOps/gh-deployment-workflow/Screen Shot 2024-10-16 at 21.07.35.png)
+![Screenshot of Successful Deployment](./Screen%20Shot%202024-10-16%20at%2021.07.35.png)
