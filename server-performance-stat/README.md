@@ -118,7 +118,4 @@ chmod +x macos-stat.sh
 ```
 
 
-This project is the result of learning at https://roadmap.sh/projects/server-stats
-
-# Roadmap
-https://roadmap.sh/projects/server-stats/solutions?u=670f2ad7791f57dd602d6264
+This project is the result of learning at [server-stats](https://roadmap.sh/projects/server-stats)
