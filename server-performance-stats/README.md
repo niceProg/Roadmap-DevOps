@@ -116,6 +116,3 @@ chmod +x macos-stat.sh
 ```bash
 ./macos-stat.sh
 ```
-
-
-This project is the result of learning at [server-stats](https://roadmap.sh/projects/server-stats)
