@@ -1,9 +1,9 @@
 # Roadmap.sh DevOps Projects
 This project is the result of learning at
 
-1. [Server Performance Stats](https://roadmap.sh/projects/server-stats) ✅
-2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool) ✅
-3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) ✅
+1. [Server Performance Stats](https://roadmap.sh/projects/server-stats) ✅ Level Beginner
+2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool) ✅ Level Beginner
+3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) ✅ Level Beginner
 4. GitHub Pages Deployment
 5. SSH Remote Server Setup
 6. Static Site Server
