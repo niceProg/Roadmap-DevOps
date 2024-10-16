@@ -19,4 +19,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3  # Using GitHub Pages custom actions
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatic authorization token
-          publish_dir: ./a  # The directory where the index.html file is located
+          publish_dir: ./gh-deployment-workflow  # The directory where the index.html file is located
