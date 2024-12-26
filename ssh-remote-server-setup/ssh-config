@@ -1,0 +1,4 @@
+Host myserver1
+    HostName 139.59.113.251
+    User root
+    IdentityFile ~/.ssh/id_rsa_project1
