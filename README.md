@@ -5,7 +5,7 @@ This project is the result of learning at
 2. [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool) ✅ Level Beginner
 3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) ✅ Level Beginner
 4. [GitHub Pages Deployment](https://roadmap.sh/projects/github-actions-deployment-workflow) ✅ Level Beginner
-5. SSH Remote Server Setup ❎ Level Beginner
+5. [SSH Remote Server Setup] (https://roadmap.sh/projects/ssh-remote-server-setup) ✅ Level Beginner
 6. Static Site Server ❎ Level Beginner
 7. Basic DNS Setup ❎ Level Beginner
 8. Simple Monitoring ❎ Level Beginner
